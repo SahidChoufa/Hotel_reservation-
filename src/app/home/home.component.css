@@ -1,0 +1,14 @@
+.hero-section {
+  min-height: 60vh;
+  padding: 4rem 0;
+}
+
+.landing-page {
+  min-height: 100vh;
+}
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
