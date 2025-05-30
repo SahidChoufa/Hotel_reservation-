@@ -8,7 +8,7 @@ import { AdminComponent } from './admin/admin.component';
 const routes: Routes = [
   {path:"", component: HomeComponent},
   {path:"list", component: ReservationListComponent},
-  {path:"new", component: ReservationFormComponent},
+  {path:"booking", component: ReservationFormComponent},
   {path:"edit/:id", component: ReservationFormComponent},
   {path:"admin", component: AdminComponent}
 ];
