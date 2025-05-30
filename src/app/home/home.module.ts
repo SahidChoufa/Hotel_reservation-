@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { RouterModule } from '@angular/router';
-
+import { ReservationFormComponent } from '../reservation-form/reservation-form.component';
+import { ReservationModule } from '../reservation/reservation.module';
 
 @NgModule({
   declarations: [
@@ -10,8 +11,10 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
-  ], exports: [
+    RouterModule,
+    ReservationModule
+  ],
+  exports: [
     HomeComponent
   ]
 })

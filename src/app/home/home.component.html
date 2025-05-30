@@ -11,7 +11,7 @@
       <div class="col-md-6">
         <h1 class="display-4 text-success mb-4">Welcome to Our Luxury Hotel</h1>
         <p class="lead mb-4">Experience unparalleled comfort and elegance in our premium accommodations.</p>
-        <button class="btn btn-primary btn-lg" [routerLink]="['/booking']">Book Now</button>
+        <a href="#reservation-form" class="btn btn-primary btn-lg">Book Now</a>
       </div>
       <div class="col-md-6">
         <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg" alt="Luxury Hotel" class="img-fluid rounded shadow">
@@ -61,6 +61,10 @@
           <img src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg" alt="Hotel Gallery 6" class="gallery-img img-fluid rounded">
         </div>
       </div>
+    </section>
+
+    <section id="reservation-form" class="mt-5 mb-5">
+      <app-reservation-form></app-reservation-form>
     </section>
   </div>
 </div>
